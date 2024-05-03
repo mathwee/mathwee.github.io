@@ -9,3 +9,20 @@ header {
     padding: 10px 20px;
     text-align: center;
 }
+
+.pdf-viewer {
+    width: 30%;
+    height: 30vh;
+}
+
+@media (max-width: 768px) { /* Pour les écrans plus petits comme les tablettes */
+    .pdf-viewer {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 480px) { /* Pour les mobiles */
+    .pdf-viewer {
+        height: 20vh;
+    }
+}
