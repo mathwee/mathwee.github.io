@@ -9,7 +9,7 @@ header {
     padding: 10px 20px;
     text-align: center;
     display: flex;
-    justify-content: space-between; /* Alignement horizontal */
+    justify-content: center;
     align-items: center; /* Alignement vertical */
 }
 
@@ -23,13 +23,16 @@ h1 {
 }
 
 .nav-links {
-    list-style-type: none; /* Enlever les puces de la liste */
-    padding: 0; /* Enlever le padding par défaut */
-    display: flex; /* Utiliser flexbox pour aligner les liens */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Les éléments de la liste sont empilés verticalement */
+    align-items: center; /* Centre les éléments de la liste */
+    margin-top: 10px; /* Espacement entre le titre et les liens */
 }
 
 .nav-links li {
-    margin: 0 10px; /* Espacer les liens */
+    margin: 5px 0; /* Espacement vertical entre les liens */
 }
 
 .return-home {
