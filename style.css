@@ -24,11 +24,17 @@ header {
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-    transition: background-color 0.3s ease; /* Effet de transition pour le survol */
 }
 
-.return-home:hover {
-    background-color: #0056b3; /* Un bleu plus foncé lors du survol */
+.tabs {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #e97b08;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
 button {
