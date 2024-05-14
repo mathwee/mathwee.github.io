@@ -8,11 +8,28 @@ header {
     color: #ffffff;
     padding: 10px 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between; /* Alignement horizontal */
+    align-items: center; /* Alignement vertical */
+}
+
+h1 {
+    margin: 0; /* Enlever la marge par défaut du h1 */
 }
 
 .pdf-viewer {
     width: 30%;
     height: 30vh;
+}
+
+.nav-links {
+    list-style-type: none; /* Enlever les puces de la liste */
+    padding: 0; /* Enlever le padding par défaut */
+    display: flex; /* Utiliser flexbox pour aligner les liens */
+}
+
+.nav-links li {
+    margin: 0 10px; /* Espacer les liens */
 }
 
 .return-home {
@@ -29,7 +46,6 @@ header {
 .tabs {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px 0;
     background-color: #e97b08;
     color: white;
     text-decoration: none;
