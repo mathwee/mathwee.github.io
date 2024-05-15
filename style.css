@@ -10,7 +10,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Organise les enfants en colonne */
-    height: 200px; /* Ajustez selon vos besoins */
+    height: 150px; /* Ajustez selon vos besoins */
     padding: 20px 0; /* Ajoute un peu d'espace en haut et en bas */
 }
 
@@ -39,7 +39,7 @@ h1 {
 }
 
 .nav-links li {
-    margin: 0 10px; /* Espacement horizontal entre les liens */
+    margin: 0 20px; /* Espacement horizontal entre les liens */
 }
 
 .return-home {
