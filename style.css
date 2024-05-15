@@ -3,14 +3,20 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 header {
-    background: #007bff;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-align: center;
+    background-color: #007bff; /* Couleur de fond bleue */
     display: flex;
     justify-content: center;
-    align-items: center; /* Alignement vertical */
+    align-items: center;
+    flex-direction: column; /* Organise les enfants en colonne */
+    height: 200px; /* Ajustez selon vos besoins */
+    padding: 20px 0; /* Ajoute un peu d'espace en haut et en bas */
+}
+
+.header-content {
+    text-align: center;
+    width: 100%; /* Assurez-vous que le conteneur prend toute la largeur */
 }
 
 .pdf-viewer {
@@ -18,17 +24,22 @@ header {
     height: 30vh;
 }
 
+h1 {
+    margin: 10px 0 0 0; /* Ajustez la marge supérieure si nécessaire */
+    color: white; /* Couleur du texte pour le titre */
+}
+
 .nav-links {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0 0; /* Ajustez selon l'espacement désiré entre le titre et les boutons */
     display: flex;
-    flex-direction: column; /* Les éléments de la liste sont empilés verticalement */
-    align-items: center; /* Centre les éléments de la liste */
-    margin-top: 10px; /* Espacement entre le titre et les liens */
+    justify-content: center; /* Centre les liens horizontalement */
+    flex-direction: row; /* Les éléments de la liste sont alignés horizontalement */
 }
 
 .nav-links li {
-    margin: 5px 0; /* Espacement vertical entre les liens */
+    margin: 0 10px; /* Espacement horizontal entre les liens */
 }
 
 .return-home {
@@ -43,12 +54,11 @@ header {
 }
 
 .tabs {
-    display: inline-block;
     padding: 10px 20px;
-    background-color: #e97b08;
+    background-color: #e97b08; /* Couleur orange des boutons */
     color: white;
     text-decoration: none;
-    border-radius: 0px;
+    border-radius: 5px;
     text-align: center;
 }
 
