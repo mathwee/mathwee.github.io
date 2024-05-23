@@ -2,6 +2,18 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.footer {
+    margin-top: auto; /* Pousse le footer en bas */
+    background-color: #e97b08; /* couleur orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 h1, h2, h3, p {
@@ -9,7 +21,8 @@ h1, h2, h3, p {
 }
 
 header {
-    background-color: #007bff; /* Couleur de fond bleue */
+    background-color: transparent; /* Couleur de fond bleue */
+    color: #333;
     display: flex;
     color: white;
     justify-content: center;
@@ -48,6 +61,10 @@ h1 {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    margin: 0 25px; /* augmente l'espacement entre les boutons */
+    padding: 15px 30px; /* augmente l'épaisseur des boutons */
+    border-radius: 20px; /* ajoute des bords arrondis */
+    background-color: #e97b08; /* couleur orange des boutons */
 }
 
 .nav-links li {
