@@ -4,9 +4,14 @@ body {
     color: #333;
 }
 
+h1, h2, h3, p {
+    color: #333;
+}
+
 header {
     background-color: #007bff; /* Couleur de fond bleue */
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Organise les enfants en colonne */
@@ -31,6 +36,7 @@ h1 {
 
 .nav-links {
     list-style: none;
+    background-color: #e97b08;
     padding: 0;
     margin: 10px 0 0 0; /* Ajustez selon l'espacement désiré entre le titre et les boutons */
     display: flex;
@@ -38,8 +44,35 @@ h1 {
     flex-direction: row; /* Les éléments de la liste sont alignés horizontalement */
 }
 
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
 .nav-links li {
     margin: 0 20px; /* Espacement horizontal entre les liens */
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.fact {
+    width: 20%;
+    padding: 10px;
+    background-color: #e97b08; /* Orange */
+    text-align: center;
+    color: white;
+}
+
+.contact-info {
+    background-color: #e97b08;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 .return-home {
