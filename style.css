@@ -10,7 +10,7 @@ body {
 
 .footer {
     margin-top: auto; /* Pousse le footer en bas */
-    background-color: #e97b08; /* couleur orange */
+    background-color: #ffaa39; /* couleur orange */
     color: white;
     padding: 20px;
     text-align: center;
@@ -49,7 +49,7 @@ h1 {
 
 .nav-links {
     list-style: none;
-    background-color: #e97b08;
+    background-color: #ffaa39;
     padding: 0;
     margin: 10px 0 0 0; /* Ajustez selon l'espacement désiré entre le titre et les boutons */
     display: flex;
@@ -60,15 +60,11 @@ h1 {
 .nav-links a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-    margin: 0 25px; /* augmente l'espacement entre les boutons */
+    margin: 10 25px; /* augmente l'espacement entre les boutons */
     padding: 15px 30px; /* augmente l'épaisseur des boutons */
     border-radius: 20px; /* ajoute des bords arrondis */
-    background-color: #e97b08; /* couleur orange des boutons */
-}
-
-.nav-links li {
-    margin: 0 20px; /* Espacement horizontal entre les liens */
+    background-color: #ffaa39; /* couleur orange des boutons */
+    display: inline-block; /* Assure que le padding et margin sont respectés */
 }
 
 .about-me {
@@ -78,11 +74,14 @@ h1 {
 }
 
 .fact {
-    width: 20%;
-    padding: 10px;
-    background-color: #e97b08; /* Orange */
+    width: 20%; /* ou ajustez selon votre préférence */
+    margin: 10px; /* Espacement entre les facts */
+    padding: 20px; /* Espace interne pour le texte */
+    background-color: #ffaa39; /* Couleur orange */
     text-align: center;
     color: white;
+    border-radius: 15px; /* Bords arrondis */
+    box-sizing: border-box; /* Assure que le padding et margin sont inclus dans la largeur/hauteur */
 }
 
 .contact-info {
