@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,8 @@ body {
 
 .footer {
     margin-top: auto; /* Pousse le footer en bas */
+    position:absolute;
+    bottom:0;
     background-color: #ffaa39; /* couleur orange */
     color: white;
     padding: 20px;
@@ -21,7 +23,7 @@ h1, h2, h3, p {
 }
 
 header {
-    background-color: transparent; /* Couleur de fond bleue */
+    background-color: transparent; 
     color: #333;
     display: flex;
     color: white;
