@@ -24,9 +24,8 @@ h1, h2, h3, p {
 
 header {
     background-color: transparent; 
-    color: #333;
+    color: #ffaa39;
     display: flex;
-    color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Organise les enfants en colonne */
