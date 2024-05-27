@@ -24,10 +24,11 @@ h1, h2, h3, p {
 
 header {
     background-color: transparent; 
-    color: #ffaa39;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: orange;
     flex-direction: column; /* Organise les enfants en colonne */
     height: 150px; /* Ajustez selon vos besoins */
     padding: 20px 0; /* Ajoute un peu d'espace en haut et en bas */
